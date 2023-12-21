@@ -1,0 +1,235 @@
+.navbar-logo{
+    width: 80px;
+    height: 70px;
+    border-radius: 10px;
+}
+#nav-item1{
+    color: white;
+}
+#nav-item2{
+    color: white;
+}
+#nav-item3{
+    color: white;
+}
+#nav-item4{
+    color: white;
+}
+
+
+.Home-page-counter{
+    background-image: url("./background\ image.jpg");  
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.Home-page-heading{
+    color: rgb(233, 236, 240);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.Home-page-button{
+    color: rgb(241, 234, 234);
+    background-color: transparent;
+    width : 130px;
+    height: 45px;
+    border-style: solid;
+    border-width : 2px;
+    border-color: rgb(194, 163, 223);
+    border-radius: 8px;
+}
+.home{
+    color: white;
+}
+.Home-page-paragraph{
+    color: aliceblue;
+}
+
+.about{
+    background-color: rgb(219, 232, 236);
+    background-repeat: no-repeat;
+}
+.about-heading{
+    color: rgb(21, 2, 39);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.about-img{
+    width: 130px;
+    height: 130px;
+    border-radius: 5px;
+}
+
+.about-card{
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.about-card-heading{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+.about-card-paragraph{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #2f3a42;
+}
+.electric-vehicel{
+    background-color: aqua;
+}
+
+.electic-vehical-cantainer{ 
+    background-color: rgb(0, 0, 0);
+}
+.Ev-heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: 500;
+    color: white;
+    margin-left: 10px;
+    padding-left: 20px;
+}
+
+.electric-card{
+    background-color: aliceblue;
+}
+
+.Ev-card-heading{
+    color: rgb(21, 2, 39);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: 300;
+}
+
+.EV-points{
+    list-style-type: square;
+}
+.EV-scroll{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.charging-bg-container{
+    background-image: url("./charge-background.webp");
+    background-size: cover;
+    
+}
+.type1-card{
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.type-card-img{
+    width: 130px;
+    height: 130px;
+    border-radius: 5px;  
+}
+
+.type-card-heading{
+    color: rgb(239, 236, 242);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: 100;
+    text-decoration: underline;
+}
+.type-card-paragraph{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+.charging-page-button{
+    color: rgb(241, 234, 234);
+    background-color: transparent;
+    width : 130px;
+    height: 45px;
+    border-style: solid;
+    border-width : 3px;
+    border-color: rgb(156, 195, 218);
+    border-radius: 8px;
+    text-align: center;
+}
+.Ev-service-center-bg-container{
+    background-color: #ffffff;
+}
+.sc-heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+.sc-sub-heading{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sc-paragraph{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 400;
+} 
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 3px solid #837f7f;
+    
+}
+  
+@media(max-width:600px){
+    th,td{
+        display: block;
+        width: 100%;
+    }
+}
+.follow-us-section {
+    background-color: white;
+}
+
+.follow-us-section-heading {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 28px;
+    color: #183b56;
+    text-align: center;
+}
+
+.icon {
+    color: #d0b200;
+    font-size: 35px;
+}
+
+.follow-us-icon-container {
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+    background-color: #faf7e8;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+    margin: 15px;
+}
+.back-button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(35, 33, 33);
+    width : 80px;
+    height: 45px;
+    border-style: sorlid;
+    border-width : 1px;
+    border-color: #ffffff;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.back{
+    color: #ffffff;
+}
